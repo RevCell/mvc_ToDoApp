@@ -1,0 +1,22 @@
+{
+    "name": "mvc_project/mvc_project",
+    "autoload": {
+        "psr-4": {
+            "MvcProject\\MvcProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "siavash",
+            "email": "sm.imfc@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        },
+        "files": ["./src/Helpers/helper.php"]
+    }
+
+}
